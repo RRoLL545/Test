@@ -161,3 +161,28 @@ chainMaker = {
     this.currentChain = tempChain.join('~~');
 	}
 };
+
+//Recursive depth calculator
+function calculateDepth(arr) {
+	
+    if (Array.isArray(arr) === true) {
+        for ( i = 0; i < arr.length; i++ ) {
+          if (Array.isArray(arr[i]) === true) {
+            return 1 + calculateDepth(arr[i]);
+        } else {
+            //return 1;
+        }
+      }
+      //return 1;
+    } else {
+        return 0;
+    }
+    
+  }
+  /*
+  a = calculateDepth([1, 2, 3, 4, 5]);
+  b = calculateDepth(3);
+  c = calculateDepth([1, 2, 3, [4, 5]]);
+  console.log(c);
+  */
+ 
