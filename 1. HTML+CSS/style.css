@@ -107,6 +107,7 @@ header {
 .header-icon-wrapper {
   width: 30px;
   height: 30px;
+  background: url(s-icon.png);
   background-color: rgb(144, 150, 89);
 }
 
@@ -132,9 +133,6 @@ main {
 .topic > p {
   font-size: 12px;
   line-height: 120%;
-  /*white-space: nowrap ;
-  overflow: hidden;
-  text-overflow: ellipsis;*/
   display: -webkit-box;
   -webkit-line-clamp: 2;
   -webkit-box-orient: vertical;
@@ -142,7 +140,7 @@ main {
 }
 
 .under-data {
-  padding-right: 5px;
+  padding-right: 6px;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -161,7 +159,7 @@ main {
 .data-unit-icon {
   background: url(s-icon.png);
   width: 21px;
-  height: 20px;
+  height: 21px;
   margin-right: 7px;
 }
 
@@ -190,19 +188,19 @@ main {
 }
 
 .data-unit-icon__photo {
-  background-position: 52px -6px;
+  background-position: 53px -6px;
 }
 
 .data-unit-icon__luck {
-  background-position: -17px -4px;
+  background-position: -18px -4px;
 }
 
 .data-unit-icon__group {
-  background-position: -40px -4px;
+  background-position: -39px -4px;
 }
 
 .header-icon-wrapper {
-  background-position: -57px -1px;
+  background-position: -58px -2px;
 }
 
 .corner-icon {
